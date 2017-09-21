@@ -1,0 +1,187 @@
+#concept {
+	margin: 180px 0 0 20%;
+	width: 60%;
+}
+#concept h1 {
+	font-size: 1.8em;
+	color: #fff;
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.9);
+}
+#concept h1 span {
+	font-size: 0.5em;
+}
+#puzzle {
+	width: 100%;
+	text-align: center;
+	
+}
+#puzzle a {
+	display: block;
+	width: 95%;
+	line-height: 2;
+	font-size: 1.2em;
+	text-decoration: none;
+	text-shadow: 1px 0px 0px rgba(0,0,0,0.3);
+	font-weight: bold;
+}
+#puzzle a:link {
+	color: #fff;
+	background-color: #C22727;
+	background-image: url(../img/arrow.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: 20px;
+}
+#puzzle a:hover {
+	color: #EDEDED;
+	background-color: #811010;
+	padding: 0 2px 0 2px;
+}
+#puzzle a:visited{
+	color: #fff;
+	background-color: #C22727;
+}
+
+#containerWrap {
+	background-color: rgba(255,255,255,0.3);
+	padding-bottom: 1%;
+}
+
+#container {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 70%;
+	margin: auto;
+	background-color: rgba(255,255,255,0.9);
+	color: #242B30;
+	padding: 1%;
+	border: solid 1px #F2C230;
+	z-index: 1;
+}
+
+#container h1 {
+	margin: -10px -10px 0 -10px;
+	padding: 0;
+	font-size: 1.8em;
+	background-color: #023373;
+	line-height: 2;
+	color: #fff;
+	text-shadow: 1px 1px 0px rgba(9,20,71,0.9);
+	text-align: center;
+}
+#container h2 {
+	margin-top: 0;
+	padding-top: 5%;
+	font-size: 1.35em;
+	background-image: url(../img/h1_down.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: 5%;
+}
+
+#container img{
+	margin-left: 25%;
+	width: 50%;
+}
+
+
+/* 電腦更大及大尺寸平板樣板：800px以上 */
+@media only screen and (min-width: 800px) {
+body {
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#container {
+	margin-top: 120px;
+	margin-bottom: 40px;
+}
+}
+
+@media only screen and (max-width: 800px) {
+	body {
+		font-size: 15px;
+	}
+	#conceptWrap {
+		margin: 0 0 0 20%;
+		padding: 10% 0 10% 0;
+		background-image: url(../img/background.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+	#containerWrap {
+		padding-bottom: 0;
+	}
+	#concept {
+		margin: 10% 0 10% 10%;
+		width: 80%;
+	}
+	
+	#container {
+		width: 80%;
+		position: absolute;
+		left: 20%;
+		padding: 1% 1% 1% 5%;
+		background-color: #fff;
+		margin: 0 0 5%;
+	}
+	#container img{
+	margin-left: 10%;
+	width: 70%;
+	}
+	#content h1 {
+		width: 100%;
+		margin: 0 0 0 -6%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	body {font-size: 14px;}
+	
+	.mainWrap{
+		position:fixed;
+		top:0;left:0;
+		width:100%;
+		height:100%;
+		padding:0;
+		overflow:scroll;
+	}
+	
+	#conceptWrap {
+		width: 100%;
+		margin: 0;
+		padding: 20% 0 20%;
+	}
+	#concept {
+		width: 90%;
+		margin: 0 0 0 10%;
+	}
+	
+	#container {
+		background-image: none;
+		background-color: #fff;
+		left: 0;
+		width: 100%;
+		padding: 0 1% 1% 10%;
+	}
+	#container img{
+	margin-left: 15%;
+	width: 70%;
+	}
+	#content {
+		background-color: #fff;
+		padding: 1% 0 0 0;
+		width: 100%;
+		margin: 0;
+		float: left;
+	}
+	
+	#content h1 {
+		width: 100%;
+		margin: 0 0 0 -5%;
+	}
+	
+}
+

@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+.block{
+	width: 70%;
+	margin: 120px 15% 50px 15%;
+	background-color: rgba(255,255,255,0.7);
+}
+.block #bar{
+	width: 100%;
+	height: 60px;
+	overflow: hidden;
+	text-align: right;
+	color: #fff;
+	z-index: 1;
+}
+#bar h1{
+	text-align:left;
+	width:100%;
+	text-shadow: 1px 1px 1px rgba(4,6,52,0.7);
+	margin: 0 0 0 5%;
+	color: #F2C230;
+}
+.button{
+	width: 100%;
+	background-color: #023373;
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 10px;
+	color: #fff;
+	text-shadow: 1px 1px 0px rgba(48,39,10,0.9);
+	float: right;
+	text-align: right;
+}
+.button img{
+	width: 32px;
+	height: auto;
+	margin-right: 10px;
+}
+
+.keyIn{
+	width: 100%;
+	text-align:left;
+	color: #000;
+	text-shadow: 1px 0px 0px rgba(48,39,10,0.7);
+	margin-left: 5%;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+
+@media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 600px) {
+}
